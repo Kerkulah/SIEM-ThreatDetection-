@@ -1,16 +1,6 @@
 
 <h2>Description</h2>
-This phase operationalizes the 3 detection rules I built in Phase 3. The goal is to make Splunk behave like a real SOC tool, not just search, but alert and visualize.
-<br />
-<h2> Nmap Port Scan </h2>
-<br />
-
-
-<br />
-
-<br />
-<img src="https://imgur.com/nM39XZk.jpg"  height="80%" width="80%">
-<img src="https://imgur.com/opgL3uz.jpg"  height="80%" width="80%">
+This phase operationalizes the detection rules I built in Phase 3. The goal is to make Splunk behave like a real SOC tool, not just search, but alert and visualize.
 <br />
 
 <h2>  Brute Force SSH with Hydra </h2>
@@ -20,27 +10,15 @@ This phase operationalizes the 3 detection rules I built in Phase 3. The goal is
 <br />
 <img src="https://imgur.com/ArJkl2H.jpg"  height="80%" width="80%">
 <img src="https://imgur.com/ZDrzpyY.jpg"  height="80%" width="80%">
+<br />
+
+- Searches all indexes for failed SSH password events from Linux auth logs.
+- Aggregates the count of failures, grouped by source IP and username.
+- Filters to only show IPs/users with more than 5 failures (brute force threshold).
+- Sorts results highest count first, so the worst offenders appear at the top.
+
+<br />
+<img src="https://imgur.com/GqMHCwL.jpg"  height="80%" width="80%">
 
 
 <br />
-
-<h2> Reverse Shell / C2 (Suspicious Process)</h2>
-
-- Suspicious process spawned from unknown binary
-- Outbound connection to Kali IP (C2 callback)
-- Sensitive file access attempts
-  
-<br />
-<br />
-<img src="https://imgur.com/OWVcyEF.jpg"  height="80%" width="80%">
-<img src="https://imgur.com/PgOZjDV.jpg"  height="80%" width="80%">
-<img src="https://imgur.com/c7NBWoQ.jpg"  height="80%" width="80%">
-
-<br />
-
-<br />
-<br />
-
-<br />
-<br />
-
