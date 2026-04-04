@@ -18,6 +18,8 @@
 - Sorts results highest count first, so the worst offenders appear at the top.
 
 <br />
+
+<img src="https://imgur.com/r07PaVc.jpg"  height="80%" width="80%">
 <img src="https://imgur.com/GqMHCwL.jpg"  height="80%" width="80%">
 <img src="https://imgur.com/MK85Nwm.jpg"  height="80%" width="80%">
 
