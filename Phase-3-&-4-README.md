@@ -23,10 +23,12 @@
 <img src="https://imgur.com/GqMHCwL.jpg"  height="80%" width="80%">
 <img src="https://imgur.com/MK85Nwm.jpg"  height="80%" width="80%">
 
-
-
+<p align="center">
+Simple Alert Dashboard  <br/>
 <br />
 
+<br />
+<img src="https://imgur.com/KwRswNE.jpg"  height="80%" width="80%">
 
 <br />
 
